@@ -6,26 +6,32 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXFileReference section */
+		1BFFB387245C2D9100C750E4 /* Solution1.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Solution1.java; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		1BFFB37B245C2CE900C750E4 = {
 			isa = PBXGroup;
 			children = (
+				1BFFB387245C2D9100C750E4 /* Solution1.java */,
 			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXLegacyTarget section */
-		1BFFB380245C2CE900C750E4 /* Java Practical Assignment */ = {
+		1BFFB380245C2CE900C750E4 /* Solution1 */ = {
 			isa = PBXLegacyTarget;
-			buildArgumentsString = "$(ACTION)";
-			buildConfigurationList = 1BFFB383245C2CE900C750E4 /* Build configuration list for PBXLegacyTarget "Java Practical Assignment" */;
+			buildArgumentsString = "$(ACTION)$(TARGETNAME).java";
+			buildConfigurationList = 1BFFB383245C2CE900C750E4 /* Build configuration list for PBXLegacyTarget "Solution1" */;
 			buildPhases = (
 			);
-			buildToolPath = /usr/bin/java;
+			buildToolPath = /usr/bin/javac;
+			buildWorkingDirectory = "";
 			dependencies = (
 			);
-			name = "Java Practical Assignment";
+			name = Solution1;
 			passBuildSettingsInEnvironment = 1;
 			productName = "Java Practical Assignment";
 		};
@@ -55,7 +61,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1BFFB380245C2CE900C750E4 /* Java Practical Assignment */,
+				1BFFB380245C2CE900C750E4 /* Solution1 */,
 			);
 		};
 /* End PBXProject section */
@@ -203,7 +209,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1BFFB383245C2CE900C750E4 /* Build configuration list for PBXLegacyTarget "Java Practical Assignment" */ = {
+		1BFFB383245C2CE900C750E4 /* Build configuration list for PBXLegacyTarget "Solution1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1BFFB384245C2CE900C750E4 /* Debug */,
