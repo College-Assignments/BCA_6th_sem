@@ -6,14 +6,7 @@
   "configurations": [
     {
       "type": "java",
-      "name": "CodeLens (Launch) - Solution1",
-      "request": "launch",
-      "mainClass": "Solution1",
-      "projectName": "Java Practical Assignment_f9620c57"
-    },
-    {
-      "type": "java",
-      "name": "Debug (Launch) - Current File",
+      "name": "Debug",
       "request": "launch",
       "mainClass": "${file}"
     }

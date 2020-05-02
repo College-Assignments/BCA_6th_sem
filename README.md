@@ -1,8 +1,6 @@
 # Java practical assignment 1
 
 Java classes and object programs
-
-Java classes and object programs
 1. Write a class to represent an integer array. Include member functions to perform the
 following tasks:
 1. Initialize the array.
