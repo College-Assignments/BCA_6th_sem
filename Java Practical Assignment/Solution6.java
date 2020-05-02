@@ -1,6 +1,8 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
+import utility.utilities;
+
 public class Solution6 {
   static int arr[];
 
@@ -46,6 +48,7 @@ public class Solution6 {
   }
 
   static void input() {
+    utilities.cls();
     Scanner in = new Scanner(System.in);
     System.out.println("\n\nEnter number of items you want to enter: ");
     int a = in.nextInt();
